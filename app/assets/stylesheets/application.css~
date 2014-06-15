@@ -179,13 +179,13 @@ a:hover {
     height: 20px;
 }
  
-#main h3 .actions {
+#main h3 .actions{
     display: none;
     font-weight: normal;
     font-size: 10px;
 }
  
-#main h3:hover .actions {
+#main h3:hover .actions{
     display: inline;
 }
  
