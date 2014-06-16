@@ -4,6 +4,8 @@ class Notifier < ActionMailer::Base
   def email_friend(article, sender_name, receiver_email)
     @article = article
     @sender_name = sender_name
+    
+    attachments["rails.png"] = File.read(Rails.root.join("public/images/rails.png"))
     mail to: receiver_email, :subject => "Interesting Article"
   end
 end
