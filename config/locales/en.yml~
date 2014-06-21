@@ -45,8 +45,5 @@ en:
     comments: Comments
     new_comment: New Comment
     add: Add
-    name: Name
-    email: Email
-    body: Body
     errors:
       not_published_yet: is not published yet

@@ -10,7 +10,6 @@
       </ul>
     </div>
   <% end %>
-
   <div class="field">
     <%= f.label :title %><br>
     <%= f.text_field :title %>
@@ -20,7 +19,7 @@
     <%= f.text_field :location %>
   </div>
   <div class="field">
-    <%= f.label "Categories" %><br />
+    <%= f.label t('general.categories') %><br />
     <% Category.all.each do |category| %>
       <%= check_box_tag 'article[category_ids][]', category.id, 
           @article.category_ids.include?(category.id), id: dom_id(category) %>

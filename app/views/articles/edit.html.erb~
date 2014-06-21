@@ -3,4 +3,4 @@
 <%= render 'form' %>
 
 <%= link_to t('general.show'), @article %> |
-<%= link_to t('general.back'), articles_path %>
+<%= link_to t(general.back), articles_path %>
